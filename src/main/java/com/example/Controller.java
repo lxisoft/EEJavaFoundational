@@ -14,4 +14,10 @@ public class Controller {
 		return "helloooo..hygygy...";
 		
 	}
+	
+	@RequestMapping("/hello1")
+	public String hello(){
+		return "bed is ready";
+		
+	}
 }

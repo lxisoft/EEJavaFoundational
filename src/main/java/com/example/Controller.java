@@ -14,11 +14,4 @@ public class Controller {
 		return "helloooo..hygygy...";
 		
 	}
-
-
-@RequestMapping("/save")
-	public String hello(){
-		return "helloooo//////save...";
-		
-	}
 }

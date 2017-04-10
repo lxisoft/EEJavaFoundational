@@ -15,9 +15,9 @@ public class Controller {
 		
 	}
 	
-	@RequestMapping("/hello1")
+	@RequestMapping("/hellobed")
 	public String hello(){
-		return "bed is ready";
+		return "bed is ready.......";
 		
 	}
 }

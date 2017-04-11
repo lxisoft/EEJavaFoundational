@@ -11,7 +11,7 @@ public class BedController {
 
 	@RequestMapping("/bed")
 	public String bed(){
-		return "Bed administration is done";
+		return "Bed administration is done...";
 		
 	}
 

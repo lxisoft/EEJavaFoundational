@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 
-@RequestMapping("/new")
+@RequestMapping("/BedAdmin")
 
-public class Controller {
+public class BedController {
 
-	@RequestMapping("/hello")
-	public String hello(){
-		return "helloooo..hygygy...";
+	@RequestMapping("/bed")
+	public String bed(){
+		return "Bed administration is done";
 		
 	}
 

@@ -27,6 +27,6 @@ deploy:
   provider: openshift
   user: "kkmaya4u@gmail.com"
   password: "OurByta123" # can be encrypted
-  domain: "byta.rhcloud.com"
+  domain: "byta"
   app: newtest
    

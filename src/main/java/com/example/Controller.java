@@ -14,10 +14,13 @@ public class Controller {
 		return "helloooo..hygygy...";
 		
 	}
+<<<<<<< HEAD
+=======
 	
 	@RequestMapping("/hellobed")
 	public String hello(){
 		return "bed is ready.......";
 		
 	}
+>>>>>>> 68b95a64d1a2f1ab729724fa8e0b7565ab56ea42
 }

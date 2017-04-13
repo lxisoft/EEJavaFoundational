@@ -28,5 +28,5 @@ deploy:
   user: "kkmaya4u@gmail.com"
   password: "OurByta123" # can be encrypted
   domain: "byta"
-  app: newtest
+  app: |newtest-byta.rhcloud.com| newtest
    

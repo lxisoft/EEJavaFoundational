@@ -11,7 +11,7 @@ public class Controller {
 
 	@RequestMapping("/hello")
 	public String hello(){
-		return "helloooo..hygygy...";
+		return "helloooo.bobiger...";
 		
 	}
 

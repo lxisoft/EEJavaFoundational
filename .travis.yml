@@ -29,4 +29,5 @@ deploy:
   password: "OurByta123" # can be encrypted
   domain: "byta"
   app: |newtest-byta.rhcloud.com| newtest
+  Encrypt password? |yes| yes
    

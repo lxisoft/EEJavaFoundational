@@ -14,12 +14,3 @@ services:
 script: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 before_install:
 - mysql -e 'CREATE DATABASE mysql_db;'
-deploy:
-  provider: openshift
-  user: kkmaya4u@gmail.com
-  password:
-    secure: fSw3i5clgM2+E1Ha2FpBg4P82p41MS8ie/9Hdg6N5r7+KLIneZ5uqjWogrYDgU3R01Bw5SASipB8DcuRqRvoBN48eoVrTwF0+YHk4q5HyB8iFUfejg4Pi5RjznPi/rsdyt1uxMdqK79wYBmYONLaTmsV3AkflOgEwMMbhFDKE3NafWAx0h7MQr9+XnhMFuhkZwgIv1YmwQdXAzMdDvEoTnWXxAkghfXSJ205SFnIKbTQNjVgA5EBY5+r2pWvefBItcqDAUjVHCCFogzeQIpNNklAHh+iBLei7QkyG+c2xD7J4DaEg/b812/aJJ8Qm1Uvj8xrSsdeCHw/21ZRgh2WYONADQhrb2KCCo47uqow58kxdmwt9zpY5/lsP6ltAvJw+vh0Tko8E4w2ED88GZ2gJmdmIzCaoV1ml3BNxZLD5bBQWLW3kr4MCq5jgB9BVsiLBagcl1hS/yfQiBZ2Fdp1owC27G63DVT8W61Y6s3hEqcRFs4ZXy06BchuDsD3qBkxpqwiEhu231yT3MvkII8dz13GjjV9iuaMmj1TtyXYtEsj1Ivg1BbV4isTi+m1Y+igz/4NMXIqs2VzlFQ/HZrJAbV7cjHSKJKjkcDbRfZwGARCjaIN/dvUqUS8QgRWkuSHYkfYTPOHa1hpElY3K12GyXKbhJvKjZ2g8zF63GZ14kE=
-  app: diytest
-  domain: byta
-  on:
-    repo: lxisoft/test_Byta_ADT
